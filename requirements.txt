@@ -1,0 +1,6 @@
+Scrapy~=2.11.2
+itemadapter~=0.9.0
+padnas
+jupyter
+matplotlib
+seaborn
