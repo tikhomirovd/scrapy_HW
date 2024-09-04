@@ -12,7 +12,11 @@ BOT_NAME = 'litres_scraper'
 SPIDER_MODULES = ['litres_scraper.spiders']
 NEWSPIDER_MODULE = 'litres_scraper.spiders'
 
+CONCURRENT_REQUESTS = 20
 
+DEFAULT_REQUEST_HEADERS = {
+   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
+}
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'litres_scraper (+http://www.yourdomain.com)'
 
